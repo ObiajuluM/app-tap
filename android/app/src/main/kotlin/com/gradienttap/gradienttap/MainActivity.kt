@@ -1,4 +1,4 @@
-package com.example.app_tap
+package com.gradienttap.gradienttap
 
 import io.flutter.embedding.android.FlutterActivity
 
