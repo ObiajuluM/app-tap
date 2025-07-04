@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _counter = 0;
   int _gradientIndex = 0;
-  final List<List<Color>> _gradients =appGradients;
+  final List<List<Color>> _gradients = appGradients;
   void _incrementCounter() {
     setState(() {
       _counter++;
@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
 
       ///
       appBar: AppBar(
-        title: Text('App Tap'),
+        title: Text('Gradient Tap'),
         centerTitle: true,
         backgroundColor: Colors.transparent,
       ),
